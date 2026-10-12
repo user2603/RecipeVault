@@ -13,3 +13,4 @@ def check_recipe_document(path="docs/recipe.md"):
 if __name__ == "__main__":
     assert check_recipe_document()
     print("avocado-toast: quality check passed")
+
