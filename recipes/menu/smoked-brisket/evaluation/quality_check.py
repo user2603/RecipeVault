@@ -2,6 +2,7 @@
 """Quality check for the smoked-brisket recipe."""
 
 REQUIRED_SECTIONS = ("Ingredients", "Instructions")
+
 def check_recipe_document(path="docs/recipe.md"):
     with open(path, "r", encoding="utf-8") as fh:
         document = fh.read()

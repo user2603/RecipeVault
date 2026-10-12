@@ -2,6 +2,7 @@
 """Quality check for the lasagna recipe."""
 
 REQUIRED_SECTIONS = ("Ingredients", "Instructions")
+
 def check_recipe_document(path="docs/recipe.md"):
     with open(path, "r", encoding="utf-8") as fh:
         document = fh.read()
@@ -13,5 +14,3 @@ def check_recipe_document(path="docs/recipe.md"):
 if __name__ == "__main__":
     assert check_recipe_document()
     print("lasagna: quality check passed")
-
-
