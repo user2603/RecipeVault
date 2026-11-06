@@ -19,3 +19,7 @@ gets an entry in the team's Notion registry, and every recipe that reaches
 > A recipe counts as `published` only when it satisfies the contribution spec
 > in `recipes/examples/`; while anything required is still missing it stays
 > `drafting`.
+
+## Kitchen notes
+
+Chefs: keep your branch history tidy and push only finished recipe folders for review.
